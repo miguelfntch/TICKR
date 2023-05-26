@@ -1,0 +1,394 @@
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    background-image:url(../img/cuestionarioimg2.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#header {
+    margin-top: 120px;
+    font-size: 32px;
+    text-align: left;
+}
+#bodyRegistrarse{
+    background-image:url(../img/fondoRegistrarse.jpg);
+}
+#tabla {
+    width: 100%;
+    margin: 80px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    background-color: rgb(250, 255, 244, 0.3);
+    letter-spacing: 0.2px;
+}
+#tabla th, td {
+    width: 250px;
+    text-align: center;
+}
+.header-row {
+    background-color: rgba(6, 7, 6, 0.5);
+    color: white;
+    text-align: left;
+}
+button {
+    display: inline;
+}
+
+#contenedorLogin{ 
+    opacity: 0.9;
+    margin-top: 10%;
+    height: 500px;
+    width: 500px;    
+    border: 1px solid #ccc;
+    border-radius:10px;
+    padding: 10px;
+    text-align: center;
+    background-image: url(../img/login.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bienvenido{
+    color: #0564c3;
+    margin-top: 20px;
+    margin-bottom: -30px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+#formulario{
+    text-align: center;
+    margin-top: 140px;    
+    width: 300px;
+    margin-left: 100px;
+}
+.btn{
+    width: 100%;
+}
+
+/**NAVEGADOR**/
+nav{
+    text-align: right;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    z-index: 999;
+}
+nav #title {
+    color: white;
+    float: left;
+    font-family: "Sequel";
+    margin: 0.1em 0 0 0.3em;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+
+nav > a{
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 0 5px 10px 5px;
+}
+
+nav > a:hover {
+    color: #f9fafc;
+    text-decoration: none;
+    border-bottom: 3px solid #f9fafc;
+    transition: 0.1s linear;
+}
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 1px 0 2px 0;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    right: 0;
+}
+
+
+#btn-user {
+    background-color: #333333;
+    color: #f9fafc;
+    border: none;
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+#btn-user:hover {
+    transition: 0.1s linear;
+    border-bottom: 3px solid #f9fafc;
+}
+
+.dropdown-menu {
+    margin-top: 10px;
+}
+
+#avatar {
+    border-radius: 50%;
+    margin: 6px;
+    max-width: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.dropdown-toggle::after {
+    transition: transform 0.15s linear; 
+ }
+.show.dropdown .dropdown-toggle::after {
+   transform: translateY(3px);
+ }
+
+#header1 {
+    width: 85%;
+    margin: 6em auto 4em auto;
+    max-width: 1400px;
+}
+#tabla-tickets {
+    width: 85%;
+    margin: 2em auto;
+    text-align: left;
+    max-width: 1400px;
+}
+
+#tabla-header h1, h6, #toggle-drop {
+    display: inline-block;
+    margin-right: 1em;
+}
+#tabla-datos {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.671);
+    backdrop-filter: blur(5px);
+}
+
+#tabla-datos th, td{
+    text-align: left;
+    margin-top: 2em;
+    padding: 0.4em 0;
+    
+}
+#tabla-datos tr:hover {
+    border: 1px solid #333333;
+}
+#tabla-datos th {
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+#tabla-datos tr {
+    font-size: 15px;
+}
+hr {
+    margin: 0 0 2em 0;
+    border: 1px solid black;
+}
+
+.contenedor {
+    margin: 5em auto 4em auto;
+
+}
+.contenedor h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #333333;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.galeria-port {
+    margin-top: 5em;
+}
+
+
+#btn-container {
+    margin: 5em auto 9em auto;
+    width: 50%;
+    border-radius: 40px;
+    padding: 1.5em;
+    background-color: #3333331e;
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(5px);
+    max-width: 900px;
+}
+#btn-img {
+    margin-left: 3em;
+}
+#btn-content {
+    margin: 1em 2em;
+    width: 40%;
+}
+#btn-content h4 {
+    font-weight: bold;
+}
+#btn-content p {
+    font-size: 14px;
+    margin-top: 2em;
+}
+#btn-button {
+    margin-top: 4.5em;
+    margin-right: 1em;
+    width: 19%;
+}
+
+#btn-borrar-form {
+    width: 9%;
+}
+
+footer{
+    background: #333333;
+    padding: 60px 0 30px 0;
+    margin: 3em auto 0 auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+    padding: 0 7em 0 7em;
+    width: 30em;
+}
+
+.content-foo h4{
+    color: #ccc;
+    border-bottom: 3px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+#form-ticket {
+    width: 70%;
+    margin: 2em auto 6em auto;
+    max-width: 1400px;
+}
+
+#form-header h1 {
+    width: 100%;
+    font-size: 2.2em;
+    margin: 4.5em auto 1.1em auto;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #333333;
+}
+
+#form-fields label {
+    margin: 1em auto 0.4em auto;
+    font-size: 14px;
+}
+#form-fields input {
+    width: 40%;
+    height: 2.5em;
+    border: 1px solid #c8c8c8;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+#form-fields #form-btn {
+    width: 25%;
+    margin: 1.3em auto 5em auto;
+    font-size: 17px;
+}
+
+.ck-editor__editable_inline {
+    min-height: 400px;
+}
+
+#ticket-container {
+    width: 70%;
+    margin: 9em auto 6em auto;
+    max-width: 1400px;
+}
+
+#btn-atras-ticket, #btn-escr-ticket{
+    width: 25%;
+    height: 42.5px;
+    border-radius: 2px;
+    font-size: 17px;
+    margin: 22px 0 85px 0;
+}
+#btnAtrasTicket {
+    margin-top: -11em;
+    width: 25%;
+}
+
+#ticket-container hr {
+    margin: 17px 0;
+}
+
+#t-asunto {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333;
+}
+
+#t-estado {
+    width: fit-content;
+    padding: 6px 17px;
+    border-radius: 4px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#id-dept {
+    margin: 0 0 3px 3px;
+    letter-spacing: 1px;
+}
+#t-desc, #t-resp {
+    /*min-height: 200px;*/
+    margin-left: 3px;
+}
+
+#t-desc-user {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 12px;
+}
+#t-desc-user img {
+    width: 55px;
+    height: 42px;
+}
+#t-desc-user p {
+    display: inline-block;
+    width: 40%;
+    margin: 2px 8px;
+    vertical-align: middle;
+}
+.titulo {
+    margin-top: 1em;
+    
+}
+
+.titulo2 {
+    margin-top: 4em;
+}
+
+@font-face {
+    font-family: "Sequel";
+    src: url("../fonts/Sequel_Demo.ttf");
+}
+
+
+

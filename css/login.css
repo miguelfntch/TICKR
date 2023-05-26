@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex; 
+    justify-content: center;
+    background-image:url(../img/cuestionarioimg2.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;   
+}
+
+#contenedorLogin{ 
+    margin-top: 9%;
+    height: 500px;
+    width: 500px;    
+    border-radius:5px;
+    padding: 40px 10px 10px 10px;
+    text-align: center;
+    background-color: #ffffff59;
+    backdrop-filter:  blur(5px);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px;
+}
+
+#logoTickr {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.bienvenido{
+    color: #0564c3;
+    margin-top: 15px;
+    margin-bottom: -30px;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+}
+#formulario{
+    text-align: center;
+    margin: 65px auto 0 auto;    
+    width: 300px;
+}
+
+#toggle-pass {
+    position: relative;
+    left: 130px;
+    bottom: 32px;
+    opacity: 25%;
+    cursor: pointer;
+}
+
+
+.btn{
+    width: 100%;
+}
+
+/**NAVEGADOR**/
+nav{
+    text-align: right;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    z-index: 999;
+}
+nav #title {
+    color: white;
+    float: left;
+    font-family: "Sequel";
+    margin: 0.1em 0 0 0.3em;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+
+nav > a{
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 0 5px 10px 5px;
+}
+
+nav > a:hover {
+    color: #f9fafc;
+    text-decoration: none;
+    border-bottom: 3px solid #f9fafc;
+    transition: 0.1s linear;
+}
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 1px 0 2px 0;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    right: 0;
+}
+
+nav > .nav-items {
+    line-height: 52px;
+    margin-right: 20px;
+}
+
+#btn-user {
+    background-color: #333333;
+    color: #f9fafc;
+    border: none;
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+#btn-user:hover {
+    transition: 0.1s linear;
+    border-bottom: 3px solid #f9fafc;
+}
+
+.dropdown-menu {
+    margin-top: 10px;
+}
+
+#avatar {
+    border-radius: 50%;
+    margin: 6px;
+    max-width: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.dropdown-toggle::after {
+    transition: transform 0.15s linear; 
+ }
+.show.dropdown .dropdown-toggle::after {
+   transform: translateY(3px);
+ }
+
+
+/* REGISTRO USUARIO*/
+#formularioReg{
+    text-align: center;
+    margin: 50px auto 17px auto;    
+    width: 300px;
+}
+
+#contenedorReg{
+    background-color: #ffffff52;
+    backdrop-filter:  blur(5px);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px;
+    margin-top: 10%;
+    height: 500px;
+    width: 500px;    
+    border: 1px solid #ccc;
+    border-radius:10px;
+    padding: 10px;
+    text-align: center;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#container-edit-ticket {
+    margin-top: 4em;
+}
+
+#btn-reg {
+    opacity: 100%;
+}
+
+#yaTienesCuenta{
+    opacity: 0.9;
+    margin-top: 270px;
+    height:220px;
+    width:300px;
+    padding: 10px 20px;    
+    justify-content: center;
+    backdrop-filter:  blur(10px);
+    background-color: #1673fc;
+    transition: all 500ms;
+    color: white;
+    border-radius: 5px;
+
+}
+#yaTienesCuenta p,
+#yaTienesCuenta button{
+    margin-top: 30px;    
+    text-align: center;
+}
+#yaTienesCuenta h3{
+    font-weight: 400;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+}
+#yaTienesCuenta button{  
+    margin-left: 30px;  
+    width: 200px;
+    padding: 10px 40px;
+    border: 2px solid white;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    transition: all 300ms;
+}
+#yaTienesCuenta button:hover{
+    background: white;
+    color: #0564c3;
+}
+
+#contenedorReg h2{
+    font-size:30px;
+    text-align: center;
+    color: #0564c3;
+}
+#contenedorReg form input{
+    background:#F2F2F2;
+}
+
+footer{
+    background: #333333;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+    padding: 0 7em 0 7em;
+    width: 30em;
+}
+
+.content-foo h4{
+    color: #ccc;
+    border-bottom: 3px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+@font-face {
+    font-family: "Sequel";
+    src: url("../fonts/Sequel_Demo.ttf");
+}
+
+
+/* ** social ** */
+
+*{box-sizing:border-box;}
+
+		.container{
+			width:95%;
+			max-width:900px;
+			padding:32px 64px;
+			margin:auto;
+		}
+
+		.social{
+			/*las imágenes usadas tienen width de 48px*/
+			width:48px;
+			position:fixed;
+			top:50px;
+			right:0;
+		}
+
+		/* Extra centrado vertical*/
+
+		.social{
+			/*border:1px solid #000;*/
+			top:50%;
+			height:205px;
+			/*para poner height 192 deberíamos haber indicado en el reset de estilos font-size:0;*/
+			margin-top:-100px;
+		}
+
