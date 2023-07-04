@@ -19,7 +19,9 @@ Proyecto final del CFGS Desarrollo de Aplicaciones Web. TICKR es una plataforma 
 
 # Autores
 
-
+- <a href="https://github.com/jonaloneli">jonaloneli</a>
+- <a href="https://github.com/Zacki1981">Zacki1981</a>
+- <a href="https://github.com/miguelfntch">miguelfntch</a>
 
 # Créditos
 
