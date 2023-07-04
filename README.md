@@ -3,4 +3,6 @@
 <hr>
 
 Proyecto final del CFGS Desarrollo de Aplicaciones Web. TICKR es una plataforma donde los usuarios pueden crear tickets con incidencias, dudas, sugerencias, etc. 
+<hr>
+
 ![TICKRvideoGIF](https://github.com/miguelfntch/TICKR/assets/103166447/08da75ad-ebba-4c37-9bb0-de9008a5f768)
