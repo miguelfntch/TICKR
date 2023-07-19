@@ -12,7 +12,7 @@ Proyecto final del CFGS Desarrollo de Aplicaciones Web. TICKR es una plataforma 
 - Tablas de tickets permiten ordenar registros por campos, filtrar, buscar y paginar resultados gracias al plugin para JQuery <strong>DataTables</strong>
 
 ![TICKRvideoGIF](https://github.com/miguelfntch/TICKR/assets/103166447/08da75ad-ebba-4c37-9bb0-de9008a5f768)
-![Uploading image.png…]()
+<img src="https://github.com/miguelfntch/TICKR/assets/103166447/9535cf7c-a64b-4fe8-ab68-7d3d68875dc7" alt="banner" width="75%"/>
 
 
 # Tecnologías y herramientas empleadas
