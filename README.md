@@ -1,21 +1,29 @@
 # TICKR 📝
-<img src="https://github.com/miguelfntch/TICKR/assets/103166447/41f44240-4dce-42f9-854a-0ea43f0657dd" alt="banner" width="100%"/><br>
-
-# Descripción
 
 Proyecto final del CFGS Desarrollo de Aplicaciones Web. TICKR es una plataforma donde los usuarios pueden crear tickets con incidencias, dudas, sugerencias, etc y recibir soporte técnico por parte de un administrador.
 
-# Funcionalidades
+# Funcionalidades 🕹
 
 - Notificaciones automáticas por email con <strong>PHPMailer</strong>
 - Editor de texto enriquecido <strong>CKEditor</strong>
 - Tablas de tickets permiten ordenar registros por campos, filtrar, buscar y paginar resultados gracias al plugin para JQuery <strong>DataTables</strong>
 
-![TICKRvideoGIF](https://github.com/miguelfntch/TICKR/assets/103166447/08da75ad-ebba-4c37-9bb0-de9008a5f768)
+# Interfaz 🖥
+
 <img src="https://github.com/miguelfntch/TICKR/assets/103166447/9535cf7c-a64b-4fe8-ab68-7d3d68875dc7" alt="banner" width="100%"/>
+<hr>
+
+![Screenshot_8](https://github.com/miguelfntch/TICKR/assets/103166447/d6f29786-7802-44de-a8a2-4c0e7f6762b5)
+<hr>
+
+![image](https://github.com/miguelfntch/TICKR/assets/103166447/37e134d6-51bd-4e1f-a379-a207bd383939)
+<hr>
+
+![image](https://github.com/miguelfntch/TICKR/assets/103166447/38f535a6-3a83-4bee-8275-731cbe45a678)
 
 
-# Tecnologías y herramientas empleadas
+
+# Tecnologías y herramientas empleadas 🛠
 
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
@@ -29,13 +37,13 @@ Proyecto final del CFGS Desarrollo de Aplicaciones Web. TICKR es una plataforma 
 ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white)
 
 
-# Autores
+# Autores 👥
 
 - <a href="https://github.com/jonaloneli">jonaloneli</a>
 - <a href="https://github.com/Zacki1981">Zacki1981</a>
 - <a href="https://github.com/miguelfntch">miguelfntch</a>
 
-# Créditos
+# Créditos 🤝🏼
 
 - <a href="https://github.com/PHPMailer/PHPMailer">PHPMailer</a>
 - <a href="https://github.com/DataTables/DataTables">DataTables</a>
